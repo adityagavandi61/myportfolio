@@ -2,7 +2,7 @@ import GitHub from "../public/assets/GitHub.png"
 import LinkedIn from "../public/assets/LinkedIn.png"
 import Twitter from "../public/assets/Twitter.png"
 import Gmail from "../public/assets/Gmail.png"
-import WhatsApp from "../public/assets/WhatsApp.png"
+import WhatsApp from "../public/assets/Whatsapp.png"
 
 
 const wmsg = "https://wa.me/919637980861?text=Hi%20Aditya%20Gavandi%2C%0A%0AI%20came%20across%20your%20profile%20and%20I%E2%80%99m%20impressed%20with%20the%20information%20on%20your%20portfolio%20and%20resume.%20I%20would%20like%20to%20work%20with%20you%20on%20my%20project.%20If%20you%27re%20available%2C%20I%27d%20love%20to%20discuss%20the%20details%20and%20see%20how%20we%20can%20collaborate.%0A%0ALooking%20forward%20to%20hearing%20from%20you!%0" 
