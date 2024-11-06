@@ -37,7 +37,7 @@ export const myprojects = [
         img: Portfolio,
         desc:"This portfolio project is a showcase of my skills and experience.",
         Gitlink:"https://github.com/adityagavandi61/My-Portfolio/tree/main/portfolio",
-        Livelink:undefined,
+        Livelink:"https://adityagavandiportfolio.netlify.app",
         technologies:["ReactJs"," TailwindCss"]
     },
 ]

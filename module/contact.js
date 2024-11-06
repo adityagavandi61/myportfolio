@@ -20,7 +20,7 @@ export const contact = [
         id: 2,
         name: "LinkedIn",
         img: LinkedIn,
-        link: "www.linkedin.com/in/adityagavandi/",
+        link: "https://linkedin.com/in/adityagavandi/",
     },
     {
         id: 3,
