@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rotateaime {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.shadow2 {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: 13px 20px 17px 18px #0000, 20px 20px 20px 20px #0000,
+    15px 20px 50px 20px rgb(0 0 0 / 0.25);
+}
+
+.profilepic {
+  animation: squareToCircle 2s 1s infinite alternate;
+}
+
+@keyframes squareToCircle {
+  0% {
+    border-radius: 0 0 0 0;
+    background: coral;
+  }
+  25% {
+    border-radius: 50% 0 0 0;
+    background: darksalmon;
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background: indianred;
+  }
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background: lightcoral;
+  }
+  100% {
+    border-radius: 50% 50% 50% 50%;
+    background: darksalmon;
+  }
+}
+
+.project-desc::after{
+  content: "";
+  background: black;
+  width: 120%;
+  height: 120%;
+  border: 3px solid lightcoral;
+  box-shadow: inset;
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 26%;
+  transition: all ease-in-out 0.3s;
+}
+
+.project-desc:hover::after{
+  top:0;
+  border-radius: 0;
+  opacity: 40%;
+}
+
+
+@media screen and (max-width: 465px) {
+  .about-info{
+    flex-direction: column-reverse;
+  }
+  
+}
