@@ -1,5 +1,5 @@
 import React from "react";
-import Switcher from "./switcher";
+import Switcher from "./Switcher.jsx";
 
 function navbar() {
   function show() {
