@@ -9,6 +9,7 @@ export const myachivements = [
     },
 ]
 
+
 import pythoncertificate from "../public/certificates/PythonCertificate.jpg"
 export const mycertificates  = [
     {
