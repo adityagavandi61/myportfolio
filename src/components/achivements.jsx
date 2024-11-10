@@ -50,7 +50,7 @@ function achivements() {
           <div className="card-section flex flex-row flex-wrap justify-center">
             {mycertificates.map((item) => (
               <div
-                className="achivement-list bg-[#dbf0fa] dark:bg-gray-900 shadow-md outline-2 flex flex-col gap-4  m-4 p-3 w-[300px] rounded-md hover:scale-110 hover:shadow-xl hover:shadow-[rgba(255,0,0,0.7)] dark:hover:shadow-[rgba(0,255,255,0.7)] transition-all duration-105"
+                className="achivement-list bg-[#dbf0fa] dark:bg-gray-900 justify-between shadow-md outline-2 flex flex-col gap-4  m-4 p-3 w-[300px] rounded-md hover:scale-110 hover:shadow-xl hover:shadow-[rgba(255,0,0,0.7)] dark:hover:shadow-[rgba(0,255,255,0.7)] transition-all duration-105"
                 key={item.id}
               >
                 <div className="img">
