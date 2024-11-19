@@ -2,6 +2,7 @@ import TicTacToe from "../public/project_img/Tic_Tac_Toe.png"
 import Hotel_Booking_Site from "../public/project_img/Hotel_Booking_Site.png"
 import Social_Media_website from "../public/project_img/Social_Media_website.png"
 import Portfolio from "../public/project_img/Portfolio.png"
+import JobautomationEMails from "../public/project_img/jobautomationemails.png"
 
 export const myprojects = [
     {
@@ -36,8 +37,17 @@ export const myprojects = [
         name: "Portfolio",
         img: Portfolio,
         desc:"This portfolio project is a showcase of my skills and experience.",
-        Gitlink:"https://github.com/adityagavandi61/My-Portfolio/tree/main/portfolio",
+        Gitlink:"https://github.com/adityagavandi61/myportfolio",
         Livelink:"https://adityagavandiportfolio.netlify.app",
         technologies:["ReactJs"," TailwindCss"]
+    },
+    {
+        id:5,
+        name: "Job Automation Emails",
+        img: JobautomationEMails,
+        desc:"This project made for automated job application with emails",
+        Gitlink:"https://github.com/adityagavandi61/Job_Automation_Emails",
+        Livelink:undefined,
+        technologies:["Python"]
     },
 ]
