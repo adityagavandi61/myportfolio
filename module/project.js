@@ -45,7 +45,7 @@ export const myprojects = [
         id:5,
         name: "Job Automation Emails",
         img: JobautomationEMails,
-        desc:"This project made for automated job application with emails",
+        desc:"Successfully deployed the project on a reliable hosting platform, scheduled to run every day for seamless accessibility and performance.",
         Gitlink:"https://github.com/adityagavandi61/Job_Automation_Emails",
         Livelink:undefined,
         technologies:["Python"]
